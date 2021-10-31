@@ -1,47 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Document</title>
+  <head>
+    <title>Cartoon</title>
     <style>
+      
+      #box {
+        position: absolute;
+        width: 180px;
+        height: 110px;
+        background-color: #51f151;
+        border-radius: 20%;
+        margin-top: 25%;
+        margin-left: 40%;
+        z-index:;
+      }
+      #face {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: #f5f4c5;
+        border-radius: 30%;
+        left: 40%;
+        bottom: 45%;
+        z-index:;
+      }
+      #circle {
+        position: absolute;
+        width: 230px;
+        height: 250px;
+        background-color: #686464;
+        left: 39%;
+        bottom: 40.5%;
+        border-radius: 90%;
+        z-index:  ;
+      }
+      #lips{
+        position: absolute;
+        width: 82px;
+        height: 12px;
+        top:72%;
+        left: 28%;
+        background-color: #000000;
+        border:2px solid #ff0000;
+        border-radius: 90%;
+        box-shadow: 0 0 10px black;
+        z-index: ;
+      }
+      #neck{
+        position: absolute;
+        width: 110px;
+        height: 100px;
+        background-color: #f5f4c5;
+        border-radius: 90%;
+        left: 21%;
+        top: 82%;
+        z-index: ;
+      }
+      #center{
+        position: absolute;
+        width: 4px;
+        height: 20px;
+        border: 2px solid transparent;
+        border-bottom: 60px solid #000000;
+       top: 20%;
+       left: 46%;
+        z-index: ;
+      }
+      #lefthair{
+        transform: rotate(-22deg);
+        position: absolute;
+        width: 90px;
+        height: 0px;
+        border: 20px solid transparent;
+        border-top: 45px solid #000000;
+        border-radius: 90%;
+        top: 28.5%;
+        left: 39%;
+      }
+      #righthair{
+        transform: rotate(22deg);
+        position: absolute;
+        width: 90px;
+        height: 0px;
+        border: 20px solid transparent;
+        border-top: 45px solid #000000;
+        border-radius: 90%;
+        top: 28.6%;
+        right: 46.2%;
+      }
+      #eye1{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border: 5px solid black;
+        border-radius: 90%;
+       top: 39%; 
+       left: 24%;
+      }
+      #eye2{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border: 5px solid black;
+        border-radius: 90%;
+        top: 38%;
+        left: 61%;
+      }
+     #eyebrow1{
+        position: absolute;
+        width: 40px;
+        height: 20px;
+        border: 5px solid transparent;
+        border-top: 8px solid #000000;
+        border-radius: 80%;
+        top: 32%;
+        left: 17.2%;
+      }
+      #eyebrow2{
+        position: absolute;
+        width: 40px;
+        height: 20px;
+        border: 5px solid transparent;
+        border-top: 8px solid #000000;
+        border-radius: 80%;
+        left: 55%;
+        top: 32%; 
+      }
+      #ear1{
+        position: absolute;
+        width: 40px;
+        height: 45px;
+        background-color: #f5f4c5;
+        border-radius: 90%;
+        top: 38%;
+        left: 38%;
+      }
+      #ear2{
+        position: absolute;
+        width: 40px;
+        height: 45px;
+        background-color: #f5f4c5;
+        border-radius: 90%;
+        top: 38%;
+        right:45%;
+      } 
+      #nose{
+        position: absolute;
+        width: 20px;
+        height: 9px;
         
-        #box{
-            
-            position: absolute;
-            width: 180px;
-            height: 110px;
-            background-color:  #51f151;
-            border-radius: 20%;
-            margin-top: 25%;
-            margin-left: 40%;
-        }
-        
-        #face{
-            
-            position: absolute;
-            width: 200px;
-            height: 200px;
-            background-color:  #f5f4c5;
-            border-radius: 30%;
-            bottom: 85% ;
-            position: absolute;
-
-        }
-        #circle{
-            position: absolute;
-            width: 210px;
-            height: 210px;
-            background-color:  #686464;
-            bottom: 30%;
-            border-radius: 90%;
-            position: absolute;
-        }
-        
+        border: 5px solid transparent;
+        border-top: 16px solid #000000;
+        background-color: #5a2506;
+        border-radius: 90%;
+        top: 50%;
+        left: 42%;
+      }
+      #fin{
+          text-align:center;
+      }
     </style>
-</head>
-<body>
-    <div id="box">
-        <div id="circle"></div>
-        <div id="face"></div>
-    </div>
-</body>
+  </head>
+  <body>
+    <div id="circle"></div>
+    <div id="box"> </div>
+    
+      <div id="face">
+          <div id="upperface">
+              <div id="eye1"></div>
+              <div id="eye2"></div>
+              <div id="eyebrow1"></div>
+              <div id="eyebrow2"></div>
+          </div>
+          <div id="lowerface">
+              <div id="nose"></div>
+              <div id="lips"></div>
+              <div id="neck"></div>
+          </div>
+      </div>
+      
+    <div id="center"></div>
+    <div id="lefthair"></div>
+    <div id="righthair"></div>
+    
+    <div id="ear1"></div>
+    <div id="ear2"></div>
+    <div id="fin"><h3>All copyrights &copy; are Reserved by Saqlain</h3></div>
+  </body>
 </html>
